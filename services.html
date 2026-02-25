@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Our Services | Craig Kershaw Ltd</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800;900&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- Scroll Progress Bar -->
+<div class="scroll-progress"></div>
+
+<!-- ── NAVIGATION ─────────────────────────────────── -->
+<nav class="nav">
+  <div class="nav-inner">
+    <a href="index.html" class="nav-logo"><img src="img/logo.png" alt="Craig Kershaw Ltd"></a>
+    <div class="nav-links" id="nav-links">
+      <div class="nav-item-dropdown nav-dropdown-trigger">
+        <a href="#">Sectors</a>
+        <div class="nav-dropdown">
+          <a href="residential.html">
+            <div class="dropdown-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg></div>
+            Residential
+          </a>
+          <a href="social-housing.html">
+            <div class="dropdown-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 00-3-3.87"/><path d="M16 3.13a4 4 0 010 7.75"/></svg></div>
+            Social Housing
+          </a>
+        </div>
+      </div>
+      <div class="nav-item-dropdown nav-dropdown-trigger">
+        <a href="services.html" class="active">Services</a>
+        <div class="nav-dropdown">
+          <a href="extensions.html">
+            <div class="dropdown-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg></div>
+            Extensions
+          </a>
+          <a href="windows-doors.html">
+            <div class="dropdown-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="3" width="20" height="18" rx="2"/><line x1="2" y1="12" x2="22" y2="12"/><line x1="12" y1="3" x2="12" y2="21"/></svg></div>
+            Windows &amp; Doors
+          </a>
+          <a href="accessibility.html">
+            <div class="dropdown-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 8v4l3 3"/></svg></div>
+            Accessibility Adaptations
+          </a>
+          <a href="roofing.html">
+            <div class="dropdown-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 21h18"/><path d="M3 7v1a3 3 0 006 0V7"/><path d="M9 7v1a3 3 0 006 0V7"/><path d="M15 7v1a3 3 0 006 0V7"/><path d="M3 7l9-4 9 4"/></svg></div>
+            Roofing
+          </a>
+          <a href="landscaping.html">
+            <div class="dropdown-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22c-4.97 0-9-2.24-9-5v-4"/><path d="M12 14c-4.97 0-9-2.24-9-5s4.03-5 9-5 9 2.24 9 5"/><path d="M21 13v4c0 2.76-4.03 5-9 5"/><circle cx="17" cy="17" r="3"/></svg></div>
+            Landscaping
+          </a>
+          <a href="joinery.html">
+            <div class="dropdown-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="M2 8h20"/><path d="M9 4v4"/><path d="M15 4v4"/></svg></div>
+            Joinery
+          </a>
+          <a href="plastering.html">
+            <div class="dropdown-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2"/><line x1="3" y1="9" x2="21" y2="9"/></svg></div>
+            Plastering
+          </a>
+        </div>
+      </div>
+      <a href="projects.html">Projects</a>
+      <a href="company.html">Company</a>
+    </div>
+    <a href="contact.html" class="nav-cta desktop-only">Get in Touch</a>
+    <div class="nav-toggle" id="nav-toggle">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+  </div>
+</nav>
+
+<!-- Mobile Nav Overlay -->
+<div class="nav-mobile-overlay" id="nav-mobile-overlay">
+  <a href="index.html">Home</a>
+  <a href="services.html">Services</a>
+  <a href="projects.html">Projects</a>
+  <a href="company.html">Company</a>
+  <a href="contact.html">Get in Touch</a>
+</div>
+
+<!-- ── HERO ────────────────────────────────────────── -->
+<section class="hero hero-services service-hero">
+  <div class="hero-bg"></div>
+  <div class="hero-inner">
+    <div class="breadcrumbs">
+      <a href="index.html">Home</a>
+      <span class="breadcrumb-sep">/</span>
+      <span class="breadcrumb-current">Services</span>
+    </div>
+    <h1 id="hero-heading">Our <span class="accent">Services</span></h1>
+    <p class="hero-sub">From extensions to plastering, we provide comprehensive construction services for residential properties and social housing.</p>
+    <div class="hero-btns">
+      <a href="contact.html" class="btn btn-gold">Get a Free Quote</a>
+      <a href="tel:01282413851" class="btn btn-outline">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+        01282 413 851
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ── SERVICES GRID ──────────────────────────────── -->
+<section class="section">
+  <div class="container">
+    <div class="section-header section-center reveal">
+      <p class="section-label">What We Do</p>
+      <h2 class="section-title">Complete Construction Solutions</h2>
+      <p class="section-desc">Every trade under one roof. From design to completion, we handle everything so you don't have to.</p>
+    </div>
+
+    <div class="services-grid reveal reveal-child">
+
+      <!-- 1. Extensions -->
+      <a href="extensions.html" class="service-card">
+        <div class="service-card-img">
+          <img src="img/ext-double.png" alt="Extensions">
+        </div>
+        <div class="service-card-content">
+          <h3>Extensions</h3>
+          <p>Expand your living space with bespoke extensions. Double storey, single storey, porch and boot room extensions.</p>
+          <span class="service-card-link">
+            Learn More
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+          </span>
+        </div>
+      </a>
+
+      <!-- 2. Windows & Doors -->
+      <a href="windows-doors.html" class="service-card">
+        <div class="service-card-img">
+          <img src="img/windows-upvc.png" alt="Windows & Doors">
+        </div>
+        <div class="service-card-content">
+          <h3>Windows &amp; Doors</h3>
+          <p>Improve security, energy efficiency and aesthetics with uPVC, aluminium, bi-fold doors and composite doors.</p>
+          <span class="service-card-link">
+            Learn More
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+          </span>
+        </div>
+      </a>
+
+      <!-- 3. Accessibility Adaptations -->
+      <a href="accessibility.html" class="service-card">
+        <div class="service-card-img">
+          <img src="img/access-wetroom.png" alt="Accessibility Adaptations">
+        </div>
+        <div class="service-card-content">
+          <h3>Accessibility Adaptations</h3>
+          <p>Wet rooms, door widening, ramps, and front door adaptations for safer, more accessible living.</p>
+          <span class="service-card-link">
+            Learn More
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+          </span>
+        </div>
+      </a>
+
+      <!-- 4. Roofing -->
+      <a href="roofing.html" class="service-card">
+        <div class="service-card-img">
+          <img src="img/roofing-hero.png" alt="Roofing">
+        </div>
+        <div class="service-card-content">
+          <h3>Roofing</h3>
+          <p>Tile roofing, flat roofing, uPVC gutters and fascias. Protection that lasts.</p>
+          <span class="service-card-link">
+            Learn More
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+          </span>
+        </div>
+      </a>
+
+      <!-- 5. Landscaping -->
+      <a href="landscaping.html" class="service-card">
+        <div class="service-card-img">
+          <img src="img/landscaping.png" alt="Landscaping">
+        </div>
+        <div class="service-card-content">
+          <h3>Landscaping</h3>
+          <p>Gardens, groundworks, and driveways. Beautiful outdoor spaces tailored to your lifestyle.</p>
+          <span class="service-card-link">
+            Learn More
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+          </span>
+        </div>
+      </a>
+
+      <!-- 6. Joinery -->
+      <a href="joinery.html" class="service-card">
+        <div class="service-card-img">
+          <img src="img/joinery-stairs.png" alt="Joinery">
+        </div>
+        <div class="service-card-content">
+          <h3>Joinery</h3>
+          <p>Staircases, skirting, doors, and kitchen fitting. Bespoke craftsmanship.</p>
+          <span class="service-card-link">
+            Learn More
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+          </span>
+        </div>
+      </a>
+
+      <!-- 7. Plastering -->
+      <a href="plastering.html" class="service-card">
+        <div class="service-card-img">
+          <img src="img/plaster-wall.png" alt="Plastering">
+        </div>
+        <div class="service-card-content">
+          <h3>Plastering</h3>
+          <p>Plastering, pointing, sand &amp; cement render, and K-Rend. Flawless finishes.</p>
+          <span class="service-card-link">
+            Learn More
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+          </span>
+        </div>
+      </a>
+
+    </div>
+  </div>
+</section>
+
+<!-- ── WHY CHOOSE US ──────────────────────────────── -->
+<section class="section section-light">
+  <div class="container">
+    <div class="why-grid reveal">
+      <div class="why-content">
+        <p class="section-label">Why Choose Us</p>
+        <h2 class="section-title">Built on Trust, <span class="text-accent">Delivered with Care</span></h2>
+        <p class="section-desc">For over 33 years, Craig Kershaw Ltd has been the go-to builder for families and housing associations across Lancashire. Here's why.</p>
+      </div>
+      <div class="why-items">
+        <div class="why-item">
+          <div class="why-item-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 11-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+          </div>
+          <div class="why-item-text">
+            <h4>One Contractor, Every Trade</h4>
+            <p>No need to coordinate multiple firms. We handle everything from groundworks to final finishes under one roof.</p>
+          </div>
+        </div>
+        <div class="why-item">
+          <div class="why-item-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+          </div>
+          <div class="why-item-text">
+            <h4>33 Years of Experience</h4>
+            <p>Two generations of Kershaws. Trusted by homeowners and Burnley Council alike since 1991.</p>
+          </div>
+        </div>
+        <div class="why-item">
+          <div class="why-item-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 20H6"/><path d="M6 12h8"/><path d="M8 20c0-8 1.6-14 6-14a4 4 0 014 4"/></svg>
+          </div>
+          <div class="why-item-text">
+            <h4>Transparent, Honest Pricing</h4>
+            <p>What we quote is what you pay. No hidden extras, no bill shock at the end of the job.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── CTA BAND ───────────────────────────────────── -->
+<section class="cta-band">
+  <div class="cta-band-inner reveal">
+    <h2>Know What You <span class="text-accent">Need?</span></h2>
+    <p>Get in touch today for a free, no-obligation quote. We cover Burnley, Lancashire, and West Yorkshire.</p>
+    <div class="cta-band-btns">
+      <a href="contact.html" class="btn btn-gold">Get a Free Quote</a>
+      <a href="tel:01282413851" class="btn btn-outline">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+        01282 413 851
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ── FOOTER ─────────────────────────────────────── -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a href="index.html" class="nav-logo"><img src="img/logo.png" alt="Craig Kershaw Ltd"></a>
+        <p class="footer-tagline">Burnley's trusted building contractor since 1991. Quality workmanship, transparent pricing, and a reputation built on doing things right.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Services</h4>
+        <ul>
+          <li><a href="extensions.html">Extensions</a></li>
+          <li><a href="windows-doors.html">Windows &amp; Doors</a></li>
+          <li><a href="accessibility.html">Accessibility Adaptations</a></li>
+          <li><a href="roofing.html">Roofing</a></li>
+          <li><a href="landscaping.html">Landscaping</a></li>
+          <li><a href="joinery.html">Joinery</a></li>
+          <li><a href="plastering.html">Plastering</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Company</h4>
+        <ul>
+          <li><a href="company.html">About Us</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Contact</h4>
+        <div class="footer-contact-item">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+          <a href="tel:01282413851">01282 413 851</a>
+        </div>
+        <div class="footer-contact-item">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+          <a href="mailto:craigkershaw@virginmedia.com">craigkershaw@virginmedia.com</a>
+        </div>
+        <div class="footer-contact-item">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+          27 Applecross Drive, Burnley, BB10 4JP
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2025 Craig Kershaw Ltd. All rights reserved.</p>
+      <div class="footer-bottom-links">
+        <a href="https://construction-sites.co.uk" target="_blank">Site by construction-sites.co.uk</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- ── FLOATING CALL BUTTON ───────────────────────── -->
+<a href="tel:01282413851" class="floating-call" id="floating-call">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+</a>
+
+<script src="main.js"></script>
+</body>
+</html>
