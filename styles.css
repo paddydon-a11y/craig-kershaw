@@ -220,11 +220,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .nav-links a {
-  font-size: 0.82rem;
+  font-size: 0.88rem;
   font-weight: 600;
-  font-variant: small-caps;
-  letter-spacing: 0.08em;
-  color: var(--text-muted);
+  letter-spacing: 0.02em;
+  color: var(--navy);
   transition: color 0.3s ease;
   position: relative;
 }
@@ -328,20 +327,20 @@ h1, h2, h3, h4, h5, h6 {
   display: inline-flex;
   align-items: center;
   gap: 8px;
-  font-size: 0.82rem;
+  font-size: 0.88rem;
   font-weight: 700;
-  padding: 10px 22px;
+  padding: 10px 24px;
   border-radius: 9px;
-  background: var(--accent);
+  background: var(--navy);
   color: var(--white);
   transition: background 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
   white-space: nowrap;
 }
 
 .nav-cta:hover {
-  background: var(--accent-hover);
+  background: var(--navy-mid);
   transform: translateY(-2px);
-  box-shadow: 0 6px 20px rgba(200, 164, 78, 0.25);
+  box-shadow: 0 6px 20px rgba(30, 58, 95, 0.25);
 }
 
 /* Mobile hamburger */
