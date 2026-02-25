@@ -451,13 +451,37 @@ h1, h2, h3, h4, h5, h6 {
   opacity: 0.15;
 }
 
+.hero-split {
+  position: relative;
+  z-index: 2;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  gap: 48px;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 28px;
+  width: 100%;
+}
+
+.hero-image {
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+}
+
+.hero-image img {
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+  display: block;
+}
+
 .hero-inner {
   position: relative;
   z-index: 2;
   max-width: 800px;
-  margin: 0 auto;
   text-align: left;
-  padding: 0 28px;
 }
 
 .hero-badge {
@@ -1831,6 +1855,15 @@ h1, h2, h3, h4, h5, h6 {
    26. Responsive — Tablet (max-width: 1024px)
    ============================================================ */
 @media (max-width: 1024px) {
+  .hero-split {
+    grid-template-columns: 1fr;
+    text-align: left;
+  }
+
+  .hero-image {
+    max-width: 500px;
+  }
+
   .hero h1 {
     font-size: 2.8rem;
   }
@@ -1909,7 +1942,11 @@ h1, h2, h3, h4, h5, h6 {
 @media (max-width: 640px) {
   .hero {
     padding-top: 100px;
-    min-height: 75vh;
+    min-height: auto;
+  }
+
+  .hero-image {
+    max-width: 100%;
   }
 
   .hero h1 {
