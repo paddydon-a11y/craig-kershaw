@@ -2321,7 +2321,7 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.1em;
-  color: var(--white);
+  color: var(--navy);
   margin-bottom: 20px;
 }
 
@@ -2333,7 +2333,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .footer-grid > div ul li a {
   font-size: 0.87rem;
-  color: rgba(255, 255, 255, 0.6);
+  color: var(--navy-mid);
   transition: color 0.3s ease;
 }
 
@@ -2343,11 +2343,11 @@ h1, h2, h3, h4, h5, h6 {
 
 .footer-grid > div ul li:not(:has(a)) {
   font-size: 0.87rem;
-  color: rgba(255, 255, 255, 0.6);
+  color: var(--navy-mid);
 }
 
 .footer-bottom a {
-  color: rgba(255, 255, 255, 0.5);
+  color: var(--navy-mid);
   transition: color 0.3s ease;
 }
 
