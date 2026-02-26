@@ -589,6 +589,22 @@ h1, h2, h3, h4, h5, h6 {
   transform: translateY(-1px);
 }
 
+.btn-whatsapp {
+  background: #25D366;
+  color: var(--white);
+  border: none;
+  box-shadow: 0 4px 16px rgba(37, 211, 102, 0.25);
+}
+
+.btn-whatsapp:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 32px rgba(37, 211, 102, 0.35);
+}
+
+.btn-whatsapp:active {
+  transform: translateY(-1px);
+}
+
 .btn-outline {
   background: transparent;
   color: var(--white);
@@ -1475,13 +1491,13 @@ h1, h2, h3, h4, h5, h6 {
   width: 58px;
   height: 58px;
   border-radius: 50%;
-  background: linear-gradient(135deg, var(--accent), var(--accent-hover));
+  background: #25D366;
   display: flex;
   align-items: center;
   justify-content: center;
   z-index: 900;
   cursor: pointer;
-  box-shadow: 0 6px 24px rgba(200, 164, 78, 0.3);
+  box-shadow: 0 6px 24px rgba(37, 211, 102, 0.3);
   transition: transform 0.3s cubic-bezier(0.23, 1, 0.32, 1),
               box-shadow 0.3s ease,
               opacity 0.4s ease,
@@ -1497,15 +1513,13 @@ h1, h2, h3, h4, h5, h6 {
 
 .floating-call:hover {
   transform: scale(1.12);
-  box-shadow: 0 10px 36px rgba(200, 164, 78, 0.4);
+  box-shadow: 0 10px 36px rgba(37, 211, 102, 0.4);
 }
 
 .floating-call svg {
-  width: 24px;
-  height: 24px;
-  stroke: var(--white);
-  fill: none;
-  stroke-width: 2;
+  width: 26px;
+  height: 26px;
+  fill: var(--white);
 }
 
 /* Floating buttons wrapper (main.js adds .visible on scroll) */
@@ -1538,7 +1552,7 @@ h1, h2, h3, h4, h5, h6 {
   position: absolute;
   inset: -4px;
   border-radius: 50%;
-  border: 2px solid var(--accent);
+  border: 2px solid #25D366;
   opacity: 0;
   animation: callPulse 2.5s ease-out infinite;
 }
@@ -2363,12 +2377,12 @@ h1, h2, h3, h4, h5, h6 {
   width: 58px;
   height: 58px;
   border-radius: 50%;
-  background: linear-gradient(135deg, var(--accent), var(--accent-hover));
+  background: #25D366;
   display: flex;
   align-items: center;
   justify-content: center;
   cursor: pointer;
-  box-shadow: 0 6px 24px rgba(200, 164, 78, 0.3);
+  box-shadow: 0 6px 24px rgba(37, 211, 102, 0.3);
   transition: transform 0.3s cubic-bezier(0.23, 1, 0.32, 1), box-shadow 0.3s ease;
   position: relative;
 }
@@ -2378,20 +2392,18 @@ h1, h2, h3, h4, h5, h6 {
   position: absolute;
   inset: -4px;
   border-radius: 50%;
-  border: 2px solid var(--accent);
+  border: 2px solid #25D366;
   opacity: 0;
   animation: callPulse 2.5s ease-out infinite;
 }
 
 .fab-call:hover {
   transform: scale(1.12);
-  box-shadow: 0 10px 36px rgba(200, 164, 78, 0.4);
+  box-shadow: 0 10px 36px rgba(37, 211, 102, 0.4);
 }
 
 .fab-call svg {
-  width: 24px;
-  height: 24px;
-  stroke: var(--white);
-  fill: none;
-  stroke-width: 2;
+  width: 26px;
+  height: 26px;
+  fill: var(--white);
 }

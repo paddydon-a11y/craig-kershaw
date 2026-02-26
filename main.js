@@ -58,7 +58,7 @@
      4. FLOATING CALL BUTTON
      =================================================================== */
   var floatingBtns = document.querySelector('.floating-btns');
-  var heroButtons = document.querySelector('.hero-buttons') || document.querySelector('.hero-cta');
+  var heroButtons = document.querySelector('.hero-buttons') || document.querySelector('.hero-cta') || document.querySelector('.hero-btns') || document.querySelector('.hero');
 
   function updateFloatingButtons() {
     if (!floatingBtns || !heroButtons) return;
