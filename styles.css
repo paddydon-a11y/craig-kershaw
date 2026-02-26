@@ -2264,12 +2264,12 @@ h1, h2, h3, h4, h5, h6 {
   transition: stroke 0.3s ease;
 }
 
-.nav-links.open ~ .nav-mobile svg {
-  stroke: var(--white);
-}
-
 .nav.scrolled .nav-mobile svg {
   stroke: var(--navy);
+}
+
+.nav .nav-links.open ~ .nav-mobile svg {
+  stroke: var(--white);
 }
 
 @media (max-width: 1024px) {
