@@ -2130,7 +2130,30 @@ h1, h2, h3, h4, h5, h6 {
   }
 
   .sector-card {
-    aspect-ratio: 16 / 10;
+    aspect-ratio: auto;
+    display: flex;
+    flex-direction: column;
+    border-radius: 16px;
+    overflow: hidden;
+    background: var(--navy);
+  }
+
+  .sector-card img {
+    position: static;
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    object-fit: cover;
+  }
+
+  .sector-card-overlay {
+    position: static;
+    background: var(--navy) !important;
+    padding: 20px 24px 24px;
+  }
+
+  .sector-tag {
+    background: rgba(255, 255, 255, 0.12);
+    border-color: rgba(255, 255, 255, 0.2);
   }
 
   .floating-call {
