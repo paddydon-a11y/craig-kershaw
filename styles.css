@@ -1532,6 +1532,10 @@ h1, h2, h3, h4, h5, h6 {
   visibility: hidden;
   transform: translateY(10px);
   transition: opacity 0.4s ease, visibility 0.4s ease, transform 0.4s ease;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  align-items: center;
 }
 
 .floating-btns.visible {
@@ -1540,10 +1544,39 @@ h1, h2, h3, h4, h5, h6 {
   transform: translateY(0);
 }
 
-.floating-btns .floating-call {
+.floating-btns .floating-call,
+.floating-btns .fab-call,
+.floating-btns .fab-phone {
   position: static;
   opacity: 1;
   visibility: visible;
+}
+
+.fab-phone {
+  width: 58px;
+  height: 58px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, var(--accent), var(--accent-hover));
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  box-shadow: 0 6px 24px rgba(200, 164, 78, 0.3);
+  transition: transform 0.3s cubic-bezier(0.23, 1, 0.32, 1), box-shadow 0.3s ease;
+  position: relative;
+}
+
+.fab-phone:hover {
+  transform: scale(1.12);
+  box-shadow: 0 10px 36px rgba(200, 164, 78, 0.4);
+}
+
+.fab-phone svg {
+  width: 24px;
+  height: 24px;
+  stroke: var(--white);
+  fill: none;
+  stroke-width: 2;
 }
 
 /* Pulse ring animation */
