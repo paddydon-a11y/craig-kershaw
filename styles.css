@@ -2306,7 +2306,7 @@ h1, h2, h3, h4, h5, h6 {
    ============================================================ */
 .footer-brand p {
   font-size: 0.87rem;
-  color: rgba(255, 255, 255, 0.6);
+  color: var(--navy);
   line-height: 1.7;
   max-width: 280px;
 }
