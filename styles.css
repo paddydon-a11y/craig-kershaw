@@ -191,9 +191,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .nav.scrolled {
-  background: rgba(255, 255, 255, 0.97);
-  backdrop-filter: blur(20px);
-  -webkit-backdrop-filter: blur(20px);
+  background: rgba(255, 255, 255, 0.99);
   padding: 12px 0;
   box-shadow: 0 2px 16px rgba(0, 0, 0, 0.06);
   border-bottom: 1px solid var(--border);
